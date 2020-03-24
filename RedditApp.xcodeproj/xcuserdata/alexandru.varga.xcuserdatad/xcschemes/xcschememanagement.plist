@@ -7,7 +7,25 @@
 		<key>RedditApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>169E4E8A2423CAAF007B59CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>169E4EA02423CAB1007B59CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>169E4EAB2423CAB1007B59CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

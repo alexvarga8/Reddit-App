@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1614295A2429F50500100107 /* RedditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161429582429F50500100107 /* RedditViewController.swift */; };
+		1614295B2429F50500100107 /* RedditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161429592429F50500100107 /* RedditViewController.xib */; };
+		1614295E2429F85D00100107 /* RedditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614295C2429F85C00100107 /* RedditTableViewCell.swift */; };
+		1614295F2429F85D00100107 /* RedditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1614295D2429F85D00100107 /* RedditTableViewCell.xib */; };
+		16142961242A130000100107 /* RedditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16142960242A130000100107 /* RedditPost.swift */; };
+		16142968242A250F00100107 /* RedditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16142967242A250F00100107 /* RedditViewModel.swift */; };
+		1614296A242A59EC00100107 /* RedditDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16142969242A59EC00100107 /* RedditDataService.swift */; };
+		1614296C242A5D2400100107 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614296B242A5D2400100107 /* ImageService.swift */; };
+		16148C182428DC6200E071FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16148C172428DC6200E071FF /* Constants.swift */; };
 		161B559F2424C7550000778C /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B559D2424C7550000778C /* WelcomeScreenViewController.swift */; };
 		161B55A02424C7550000778C /* WelcomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161B559E2424C7550000778C /* WelcomeScreenViewController.xib */; };
 		161B55A22424CD060000778C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161B55A12424CD060000778C /* Main.storyboard */; };
-		161B55A62424CED00000778C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B55A42424CED00000778C /* LoginViewController.swift */; };
-		161B55A72424CED00000778C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161B55A52424CED00000778C /* LoginViewController.xib */; };
 		161B55A92424CEF80000778C /* WelcomeScreenFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B55A82424CEF80000778C /* WelcomeScreenFlowCoordinator.swift */; };
-		161B55B02424D0AA0000778C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B55AF2424D0AA0000778C /* LoginView.swift */; };
-		161B55B22424D0B30000778C /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161B55B12424D0B30000778C /* LoginView.xib */; };
 		161B55B62424DBCF0000778C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B55B52424DBCF0000778C /* CustomButton.swift */; };
-		161B55B8242512B00000778C /* LoginFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B55B7242512B00000778C /* LoginFlowCoordinator.swift */; };
-		161B55BB242512DD0000778C /* LoginWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B55B9242512DD0000778C /* LoginWebViewController.swift */; };
-		161B55BC242512DD0000778C /* LoginWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161B55BA242512DD0000778C /* LoginWebViewController.xib */; };
 		169E4E8F2423CAAF007B59CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E4E8E2423CAAF007B59CF /* AppDelegate.swift */; };
 		169E4E912423CAAF007B59CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E4E902423CAAF007B59CF /* SceneDelegate.swift */; };
 		169E4E982423CAB1007B59CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169E4E972423CAB1007B59CF /* Assets.xcassets */; };
@@ -48,18 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		161429582429F50500100107 /* RedditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditViewController.swift; sourceTree = "<group>"; };
+		161429592429F50500100107 /* RedditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedditViewController.xib; sourceTree = "<group>"; };
+		1614295C2429F85C00100107 /* RedditTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditTableViewCell.swift; sourceTree = "<group>"; };
+		1614295D2429F85D00100107 /* RedditTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedditTableViewCell.xib; sourceTree = "<group>"; };
+		16142960242A130000100107 /* RedditPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditPost.swift; sourceTree = "<group>"; };
+		16142967242A250F00100107 /* RedditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditViewModel.swift; sourceTree = "<group>"; };
+		16142969242A59EC00100107 /* RedditDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditDataService.swift; sourceTree = "<group>"; };
+		1614296B242A5D2400100107 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		16148C172428DC6200E071FF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		161B559D2424C7550000778C /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
 		161B559E2424C7550000778C /* WelcomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeScreenViewController.xib; sourceTree = "<group>"; };
 		161B55A12424CD060000778C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		161B55A42424CED00000778C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		161B55A52424CED00000778C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		161B55A82424CEF80000778C /* WelcomeScreenFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenFlowCoordinator.swift; sourceTree = "<group>"; };
-		161B55AF2424D0AA0000778C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		161B55B12424D0B30000778C /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		161B55B52424DBCF0000778C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		161B55B7242512B00000778C /* LoginFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlowCoordinator.swift; sourceTree = "<group>"; };
-		161B55B9242512DD0000778C /* LoginWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebViewController.swift; sourceTree = "<group>"; };
-		161B55BA242512DD0000778C /* LoginWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginWebViewController.xib; sourceTree = "<group>"; };
 		169E4E8B2423CAAF007B59CF /* RedditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169E4E8E2423CAAF007B59CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		169E4E902423CAAF007B59CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,10 +115,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16142962242A16E500100107 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				16142969242A59EC00100107 /* RedditDataService.swift */,
+				1614296B242A5D2400100107 /* ImageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		16148C1B2428FD3C00E071FF /* Reddits */ = {
+			isa = PBXGroup;
+			children = (
+				16148C1C2428FD4E00E071FF /* Model */,
+				16148C1F2428FD6200E071FF /* View */,
+				16148C1E2428FD5D00E071FF /* View Controller */,
+				16148C1D2428FD5700E071FF /* View Model */,
+			);
+			path = Reddits;
+			sourceTree = "<group>";
+		};
+		16148C1C2428FD4E00E071FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16142960242A130000100107 /* RedditPost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16148C1D2428FD5700E071FF /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				16142967242A250F00100107 /* RedditViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		16148C1E2428FD5D00E071FF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				161429582429F50500100107 /* RedditViewController.swift */,
+				161429592429F50500100107 /* RedditViewController.xib */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		16148C1F2428FD6200E071FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16148C202428FE6300E071FF /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16148C202428FE6300E071FF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1614295C2429F85C00100107 /* RedditTableViewCell.swift */,
+				1614295D2429F85D00100107 /* RedditTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		161B559B2424C7060000778C /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				161B55A32424CEC40000778C /* Login */,
+				16148C1B2428FD3C00E071FF /* Reddits */,
 				161B559C2424C71B0000778C /* Welcome Screen */,
 			);
 			path = Features;
@@ -127,15 +193,6 @@
 				161B55AB2424D0750000778C /* Views */,
 			);
 			path = "Welcome Screen";
-			sourceTree = "<group>";
-		};
-		161B55A32424CEC40000778C /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				161B55AE2424D0970000778C /* Views */,
-				161B55AD2424D0860000778C /* View Controllers */,
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		161B55AA2424D0690000778C /* View Controller */ = {
@@ -155,31 +212,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		161B55AD2424D0860000778C /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				161B55A42424CED00000778C /* LoginViewController.swift */,
-				161B55A52424CED00000778C /* LoginViewController.xib */,
-				161B55B9242512DD0000778C /* LoginWebViewController.swift */,
-				161B55BA242512DD0000778C /* LoginWebViewController.xib */,
-			);
-			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		161B55AE2424D0970000778C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				161B55AF2424D0AA0000778C /* LoginView.swift */,
-				161B55B12424D0B30000778C /* LoginView.xib */,
-				161B55B7242512B00000778C /* LoginFlowCoordinator.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		161B55B32424DB9B0000778C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				16142962242A16E500100107 /* Service */,
 				161B55B42424DBA60000778C /* Views */,
+				16148C172428DC6200E071FF /* Constants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -379,11 +417,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161B55A72424CED00000778C /* LoginViewController.xib in Resources */,
+				1614295B2429F50500100107 /* RedditViewController.xib in Resources */,
 				161B55A02424C7550000778C /* WelcomeScreenViewController.xib in Resources */,
-				161B55B22424D0B30000778C /* LoginView.xib in Resources */,
-				161B55BC242512DD0000778C /* LoginWebViewController.xib in Resources */,
 				169E4E9B2423CAB1007B59CF /* LaunchScreen.storyboard in Resources */,
+				1614295F2429F85D00100107 /* RedditTableViewCell.xib in Resources */,
 				169E4E982423CAB1007B59CF /* Assets.xcassets in Resources */,
 				161B55A22424CD060000778C /* Main.storyboard in Resources */,
 			);
@@ -513,12 +550,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161B55B02424D0AA0000778C /* LoginView.swift in Sources */,
-				161B55A62424CED00000778C /* LoginViewController.swift in Sources */,
-				161B55B8242512B00000778C /* LoginFlowCoordinator.swift in Sources */,
+				1614296A242A59EC00100107 /* RedditDataService.swift in Sources */,
+				1614295A2429F50500100107 /* RedditViewController.swift in Sources */,
 				169E4E8F2423CAAF007B59CF /* AppDelegate.swift in Sources */,
-				161B55BB242512DD0000778C /* LoginWebViewController.swift in Sources */,
+				16148C182428DC6200E071FF /* Constants.swift in Sources */,
+				1614295E2429F85D00100107 /* RedditTableViewCell.swift in Sources */,
+				1614296C242A5D2400100107 /* ImageService.swift in Sources */,
+				16142968242A250F00100107 /* RedditViewModel.swift in Sources */,
 				161B55A92424CEF80000778C /* WelcomeScreenFlowCoordinator.swift in Sources */,
+				16142961242A130000100107 /* RedditPost.swift in Sources */,
 				161B55B62424DBCF0000778C /* CustomButton.swift in Sources */,
 				169E4E912423CAAF007B59CF /* SceneDelegate.swift in Sources */,
 				161B559F2424C7550000778C /* WelcomeScreenViewController.swift in Sources */,

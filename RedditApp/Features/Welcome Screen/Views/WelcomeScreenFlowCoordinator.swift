@@ -21,7 +21,7 @@ class WelcomeScreenFlowCoordinator: NSObject {
     }
 
     func start() {
-        let controller = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        let controller = RedditViewController(nibName: "RedditViewController", bundle: nil)
         self.show(controller, animated: true)
     }
 

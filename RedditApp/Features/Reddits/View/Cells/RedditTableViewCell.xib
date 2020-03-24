@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RedditViewController" customModule="RedditApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RedditTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="RedditTableViewCell" customModule="RedditApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="249" verticalHuggingPriority="249" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dhf-PK-gh4">
+                        <rect key="frame" x="0.0" y="2.5" width="100" height="95.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="dhf-PK-gh4" secondAttribute="height" multiplier="1:1" id="JNf-qu-KgA"/>
+                            <constraint firstAttribute="width" constant="100" id="iX1-eC-Oxw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSi-NG-dqX">
+                        <rect key="frame" x="110" y="8" width="230" height="26.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tf-lz-biH">
+                        <rect key="frame" x="110" y="69.5" width="210" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZSi-NG-dqX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="3pY-ig-hNz"/>
+                    <constraint firstItem="ZSi-NG-dqX" firstAttribute="leading" secondItem="dhf-PK-gh4" secondAttribute="trailing" constant="10" id="82X-kY-zYr"/>
+                    <constraint firstItem="dhf-PK-gh4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CyS-q5-iCT"/>
+                    <constraint firstItem="5Tf-lz-biH" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="IOI-m9-X18"/>
+                    <constraint firstItem="5Tf-lz-biH" firstAttribute="top" secondItem="ZSi-NG-dqX" secondAttribute="bottom" constant="35" id="Kxp-OQ-czm"/>
+                    <constraint firstAttribute="trailing" secondItem="ZSi-NG-dqX" secondAttribute="trailing" constant="10" id="Pho-tx-WUJ"/>
+                    <constraint firstItem="dhf-PK-gh4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="XcY-7m-Ga9"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="5Tf-lz-biH" secondAttribute="trailing" constant="10" id="bLf-2b-A2e"/>
+                    <constraint firstAttribute="bottom" secondItem="dhf-PK-gh4" secondAttribute="bottom" id="rUf-lh-cpD"/>
+                    <constraint firstItem="5Tf-lz-biH" firstAttribute="leading" secondItem="dhf-PK-gh4" secondAttribute="trailing" constant="10" id="ttO-5J-YDd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="redditDateLabel" destination="5Tf-lz-biH" id="AUK-nL-lQk"/>
+                <outlet property="redditImageView" destination="dhf-PK-gh4" id="V85-1a-hOy"/>
+                <outlet property="redditTitleLabel" destination="ZSi-NG-dqX" id="wzu-dX-e6h"/>
+            </connections>
+            <point key="canvasLocation" x="159.42028985507247" y="124.55357142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pencil" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
